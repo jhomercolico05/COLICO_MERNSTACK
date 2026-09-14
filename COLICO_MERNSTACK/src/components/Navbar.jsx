@@ -5,6 +5,7 @@ export default function Navbar(){
         <div className="bg-blue-500 p-4 flex justify-center gap-20 text-white font-bold text-2xl p-10">
             <Link to="/">Home</Link>
             <Link to="/students">Students</Link>
+            <Link to="/addstudents">Add Student</Link>
         </div>
     );
 }

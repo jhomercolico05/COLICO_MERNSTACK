@@ -3,18 +3,27 @@
     "id":1,
     "name": "John",
     "age": 26,
-    "course": "BSIT"
+    "course": "BSIT",
+    "studentNumber": "12345",
+    "courseDescription": "Bachelor of Science in Information Technology",
+    "sex": "Male"
 },
 {
     "id":2,
     "name": "Jhomer",
     "age": 21,
-    "course": "BSIT"
+    "course": "BSIT",
+    "studentNumber": "67890",
+    "courseDescription": "Bachelor of Science in Information Technology",
+    "sex": "Male"
 },
 {
     "id":3,
     "name": "Colico",
     "age": 25,
-    "course": "BSCS "
+    "course": "BSCS ", 
+    "studentNumber": "54321",
+    "courseDescription": "Bachelor of Science in Computer Science",
+    "sex": "Male"
 }
 ]

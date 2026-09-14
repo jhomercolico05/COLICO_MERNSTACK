@@ -5,6 +5,8 @@ import Home from "./pages/Home.jsx";
 import Students from "./pages/Students.jsx";
 import StudentDetails from "./pages/StudentsDetails.jsx";
 import Navbar from "./components/Navbar.jsx";
+import AddStudent from "./pages/AddStudent.jsx";
+
 
 function App(){
   return (
@@ -15,6 +17,7 @@ function App(){
             <Route path="/" element={<Home/>}></Route>
             <Route path="/students" element={<Students/>}></Route>
             <Route path="/students/:id" element={<StudentDetails/>}></Route>
+            <Route path="/addstudents" element={<AddStudent/>}></Route>
         
         </Routes>
         </BrowserRouter>

@@ -1,5 +1,8 @@
 import students from "../data/students.json";
 import StudentCards from "../components/StudentCard.jsx";
+import { useState } from "react";
+import AddStudent from "./AddStudent.jsx";
+
 
 export default function Students(){
     return(   
@@ -11,8 +14,11 @@ export default function Students(){
                         name={student.name}
                         age={student.age}
                         course={student.course}
+
                         />
                 ))};
+
+                
             </div>
     );
 }
