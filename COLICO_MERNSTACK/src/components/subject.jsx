@@ -9,6 +9,4 @@ function subjectCard({schedCode, subjectName, classSchedule}) {
     )
 }
 
-
-
 export default subjectCard;
